@@ -1,5 +1,5 @@
 body{
-  background-color: blanchedalmond;
+  background-color: rgb(143, 155, 204);
 }
 
 .me{
@@ -11,7 +11,7 @@ body{
 }
 
 main{
-  background-color:#ccc;
+  background-color:rgb(136, 143, 172);
   margin-right: 50%;
   border-radius:10px;
 
@@ -75,4 +75,19 @@ display: inline;
 .facebook img:hover{
   height: 8%;
   transition:1s;
+}
+
+.idol {
+  clear: left;
+}
+
+.idol video{
+  clear: left;
+  height: 30%;
+  width:auto;
+}
+
+section p{
+  
+  margin-right: 30px;
 }
