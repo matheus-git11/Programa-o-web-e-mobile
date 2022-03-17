@@ -1,0 +1,80 @@
+body{
+  background-color: blanchedalmond;
+}
+
+.me{
+ float: left; 
+ margin-right:20px;
+ width:auto;
+ height:39%;
+
+}
+
+main{
+  background-color:#ccc;
+  margin-right: 50%;
+  border-radius:10px;
+
+}
+
+.gato{
+  width: 200px;
+  height: 180px;
+  border-radius: 100%;
+ 
+}
+
+
+.p1::before{
+ content:"(=•́ܫ•̀=)";
+ align-items: center;
+}
+
+.p2::before{
+  content:"💦"
+}
+
+.p3::before{
+  content:"📚";
+}
+
+.p4::before{
+  content:"🏋️";
+}
+.p5::before{
+  content:"💻";
+}
+
+h2{
+  clear;
+}
+
+ul{
+list-style-type: none;
+display: inline;
+}
+
+
+.instagram img{
+  width: auto;
+  height: 5%;
+  float: left;
+}
+
+.instagram img:hover{
+  height: 8%;
+  transition:1s;
+  
+}
+.facebook{
+  float: left;
+}
+.facebook img{
+  width: auto;
+  height: 5%;
+}
+
+.facebook img:hover{
+  height: 8%;
+  transition:1s;
+}
