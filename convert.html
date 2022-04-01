@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/conversor.css">
+    <title>Conversor</title>
+</head>
+<body>
+    <section> 
+        <p>Conversor</p>
+        <div class="conversor">
+            <p>Informe o Valor de Conversão:</p>
+            <input id="taxaConversao" type="number">   
+            <button onclick='clicConvert()' id="botaoC" type="button">Confirmar</button>
+        </div>
+        
+        <div class="conversor conversorReal">
+            <p>Informe o Valor em Real:</p>
+            <input id="taxaReal" type="number">   
+            <button onclick='clicReal()' disabled class="botaoR" type="button">Converter</button>
+        </div>
+
+        <div id="result">
+            <p id="resultado" >Resultado aqui</p>
+        </div>
+
+        <div class="conversor conversorDolar">
+            <p>Informe o Valor em Dolar</p>
+            <input id="TaxaDolar" type="number">   
+            <button onclick=" clicDolar()" disabled class="botaoD" type="button">Converter</button>
+        </div>
+
+        <div id="resultD">
+            <p  id="resultadoD" >Resultado aqui</p>
+        </div>
+
+        <div id="result">
+            <p id="resultado" >Resultado aqui</p>
+        </div>
+          
+        <button onclick='clicClean()' id="botaoL">Limpar</button>
+        
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
