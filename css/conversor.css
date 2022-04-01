@@ -1,28 +1,56 @@
+:root{
+    --fonte-principal : 'Inter';
+
+}
+
 body{
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 10%;
+    font-family: var(--fonte-principal);
+
+    
+}
+
+h1{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    background-color:#0ce03a;
+    border-radius: 10px;
+
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, -20px 15px 9px rgba(206,89,55,0);
 }
 
 section{
-   background-color: aqua;
+   background-color: rgb(106, 155, 122);
+   background-image:url('/img/dinheiro.png');
+   background-repeat:no-repeat;
+   background-size:contain ;
+
    text-align: center;
-   width:15%;
+   width:25%;
    border-radius:3%;
+
+   -webkit-box-shadow: 1px 3px 13px 6px rgba(0,0,0,0.81); 
+    box-shadow: 1px 3px 13px 6px rgba(0,0,0,0.81);
   
 }
 
 .conversor{
     margin-bottom:3%;
     justify-content: center;
+    border-bottom: 1px dashed #12c497;
 }
 
 #result,#resultD{
-   justify-content: center;
-    align-items: center;  
-    height:50px;
+   margin-left: 41%;
+    width: 20%;
     display: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    
   
 }
 
@@ -34,3 +62,27 @@ section{
 
 }
 
+#botaoC,.botaoR,.botaoD{
+    border-radius: 10px;
+    display: flex;
+    margin-left: 42%;
+    margin-top:2%;
+}
+
+.legenda{
+    margin-top:30px;
+    color:#ffffff;
+    
+}
+
+#botaoL{
+    transition:2s;
+}
+
+#botaoL:hover{
+    width: 20%;
+    border-radius: 10px;
+    background-color: red;
+    transition:2s;
+
+}

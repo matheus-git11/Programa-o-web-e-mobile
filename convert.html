@@ -6,40 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/conversor.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <title>Conversor</title>
 </head>
 <body>
     <section> 
-        <p>Conversor</p>
+        <h1>Conversor Dolar-Real</h1>
         <div class="conversor">
-            <p>Informe o Valor de Conversão:</p>
+            <p class="legenda">Informe o Valor de Conversão:</p>
             <input id="taxaConversao" type="number">   
             <button onclick='clicConvert()' id="botaoC" type="button">Confirmar</button>
+            
         </div>
         
         <div class="conversor conversorReal">
-            <p>Informe o Valor em Real:</p>
+            <p class="legenda">Informe o Valor em Real:</p>
             <input id="taxaReal" type="number">   
             <button onclick='clicReal()' disabled class="botaoR" type="button">Converter</button>
+            <div id="result">
+                <p id="resultado" >Resultado aqui</p>
+            </div>
+        
         </div>
 
-        <div id="result">
-            <p id="resultado" >Resultado aqui</p>
-        </div>
+       
 
         <div class="conversor conversorDolar">
-            <p>Informe o Valor em Dolar</p>
+            <p class="legenda"> Informe o Valor em Dolar</p>
             <input id="TaxaDolar" type="number">   
             <button onclick=" clicDolar()" disabled class="botaoD" type="button">Converter</button>
+
+            <div id="resultD">
+                <p  id="resultadoD" >Resultado aqui</p>
+            </div>
         </div>
 
-        <div id="resultD">
-            <p  id="resultadoD" >Resultado aqui</p>
-        </div>
-
-        <div id="result">
-            <p id="resultado" >Resultado aqui</p>
-        </div>
+    
           
         <button onclick='clicClean()' id="botaoL">Limpar</button>
         
