@@ -1,0 +1,48 @@
+
+
+
+h1{
+ text-align:center;
+ color: #fff;
+ font-size: 1.5em;
+ margin-bottom: 0.3em;
+ border-bottom: 1px solid #fff;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+    margin-bottom: 4em;
+    background-color:rgb(68, 59, 190);
+    margin-top: 2%;
+    border-radius: 10px;
+    width:15%;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+.field{
+ display: flex;
+ flex-wrap: wrap;
+
+}
+
+.contador{
+  background-color:aqua;
+  width: 6em;
+  height: 5em;
+  border-radius: 10px;
+  display: flex;
+  margin: 1em 2em;
+  flex-direction:column;
+  justify-content:space-between;
+  align-items:center;
+  text-align:center;
+
+}
