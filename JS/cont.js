@@ -17,6 +17,7 @@
         button.innerHTML="Limpar";
         phar2.innerHTML=0;
         phar.innerHTML= rotulo;
+        elem.style.backgroundColor=background();
         elem.classList.add('contador');
 
         let n = id;
@@ -37,10 +38,7 @@
         
         document.querySelector('.field').appendChild(elem);
 
-    }
-   
-  
-    
+    }  
  }
 
 
@@ -53,8 +51,16 @@
 
  }
 
-
  function limpar(id){
     var i = id+1;
     document.getElementById(i).innerHTML= -1;
  }
+
+function random(colors){
+    return Math.floor(Math.random()*colors);
+}
+
+function background(){
+    const rand = 'rgb('+random(255)+ ','+random(255)+','+random(255)+')';
+    return rand;
+}
