@@ -42,7 +42,7 @@
 body{
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    background-color: var(--body-color);
+    background-color:#AFDBF5;
     color: var(--text-color);
 }
 
@@ -387,7 +387,8 @@ img{
   }
   
   @media screen and (min-width: 776px) {
-    .projects__content  {
+    .projects__content
+  {
       grid-template-columns: repeat(3, 332px);
     }
   
