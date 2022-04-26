@@ -133,7 +133,7 @@ img{
     margin-bottom: 1rem;
 }
 
-profile__social{
+.profile__social{
     display:flex;
     justify-content: center;
     column-gap: .75rem;
@@ -247,6 +247,54 @@ profile__social{
 }
 
 .filters__button:hover{
+    background-color:var(--body-color);    
+}
 
-    
+
+.projects__card{
+    position:relative;
+    border-radius:1rem;
+    overflow:hidden;
+}
+
+.projects__card img{
+    width:100%;
+    height:100%;
+}
+
+.projects__modal{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+    background: linear-gradient(180deg, 
+              hsla(var(--hue), 24%, 40%, .3) 0%, 
+              hsla(var(--hue), 24%, 4%, 1) 95%);
+  display: grid;
+  align-items: flex-end;
+  padding: 1.5rem 1.25rem;
+  transition: .3s;
+}
+
+.projects__subtitle,
+.projects__title{
+    color:#ffffff;
+}
+
+.projects__subtitle{
+    font-size: var(--smaller-font-size);
+}
+
+.project__tittle{
+    font-size:var(--h3-font-size);
+    margin-bottom: .75rem;
+}
+
+.projects__button{
+    padding: .5rem;
+}
+
+.projects__card:hover .projects__modal{
+    bottom:0;
 }
