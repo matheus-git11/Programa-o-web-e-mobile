@@ -42,7 +42,7 @@
 body{
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    background-color:#AFDBF5;
+    background-color:#bbd1df;
     color: var(--text-color);
 }
 
